@@ -1,0 +1,32 @@
+@import 'colors';
+
+// General colors
+@syntax-text-color: hsl(@hue-base, 10%, 80%);
+@syntax-background-color: hsl(@hue-base, 20%, 11%);
+@syntax-cursor-color: @syntax-text-color;
+@syntax-selection-color: saturate(lighten(@syntax-background-color, 10%), 5%);
+
+// Guide colors
+@syntax-guide-color: fadeout(saturate(lighten(@syntax-background-color, 20%), 10%), 70%);
+@syntax-wrap-guide-color: @syntax-guide-color;
+@syntax-indent-guide-color: @syntax-guide-color;
+@syntax-invisible-character-color: @syntax-guide-color;
+
+// For find and replace markers
+@syntax-result-marker-color: @syntax-text-color;
+@syntax-result-marker-color-selected: @orange;
+
+// Gutter colors
+@syntax-gutter-background-color: saturate(lighten(@syntax-background-color, 5%), 5%);
+@syntax-gutter-text-color: lighten(@syntax-gutter-background-color, 25%);
+@syntax-gutter-text-color-selected: saturate(lighten(@syntax-gutter-text-color, 50%), 10%);
+@syntax-gutter-background-color-selected: saturate(lighten(@syntax-gutter-background-color, 10%), 10%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
+
+// Misc
+@syntax-comment-color: hsl(@hue-base, 12%, 48%);

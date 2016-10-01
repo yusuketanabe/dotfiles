@@ -1,0 +1,40 @@
+{
+  "name": "iceberg-syntax",
+  "theme": "syntax",
+  "version": "0.2.2",
+  "description": "A dark blue syntax theme for Atom",
+  "keywords": [
+    "blue",
+    "dark",
+    "syntax",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cocopon/atom-iceberg-syntax.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "readme": "iceberg-syntax\n==============\n\n\nOverview\n--------\nIceberg is a dark blue syntax theme for Atom, originally for Vim.\nIt brings a cool-headed perspective for your happy coding :)\n\nSee the [official site](http://cocopon.github.io/iceberg.vim/) for more\ninformation.\n\n![Screenshot](http://cocopon.me/app/vim-iceberg/github/screenshot_atom.png)\n\n\nLicense\n-------\nMIT License. See `LICENSE.txt` for more information.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cocopon/atom-iceberg-syntax/issues"
+  },
+  "homepage": "https://github.com/cocopon/atom-iceberg-syntax#readme",
+  "_id": "iceberg-syntax@0.2.2",
+  "_shasum": "f7237cfc2cc42068403e59f0520b01df9528262d",
+  "_resolved": "file:../d-116823-2542-1omyl2r/package.tgz",
+  "_from": "../d-116823-2542-1omyl2r/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
