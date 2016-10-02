@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=(.atom .gitconfig .vim .vimrc)
+DOT_FILES=(.gitconfig .vimrc .gvimrc)
 
 for file in ${DOT_FILES[@]}
 do
