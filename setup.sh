@@ -1,9 +1,8 @@
 #!/bin/bash
 
-DOT_FILES=(.gitconfig .vimrc .gvimrc .zshrc)
+DOT_FILES=(.vimrc .gvimrc .zshrc)
 
 # rm files
-rm -rf ~/.gitconfig
 rm -rf ~/.vimrc
 rm -rf ~/.gvimrc
 rm -rf ~/.zshrc
