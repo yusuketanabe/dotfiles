@@ -11,5 +11,4 @@ set lines=55
 set columns=140
 "カラースキーマの指定
 colorscheme iceberg
-
 set guifont=Cosmic\ Sans\ Neue\ Mono:h14

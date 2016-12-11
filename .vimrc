@@ -13,6 +13,8 @@ set hlsearch
 set smartindent
 "構文毎に文字色を変化させる
 syntax on
+"hlsearch change font-color
+highlight Search ctermfg=52
 
 set autoindent
 set list listchars=tab:▸\ 
