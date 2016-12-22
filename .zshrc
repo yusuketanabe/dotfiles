@@ -3,6 +3,12 @@
 #      / /_|___ |  _ \| |  ||__     
 # [_] /____|____|_| |_|_|  \___|                              
 
+## pyenv
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PYENV_ROOT="$HOME/.pyenv"
+
+eval "$(pyenv init -)"
+
 ## General
 autoload colors && colors
 autoload -Uz vcs_info
