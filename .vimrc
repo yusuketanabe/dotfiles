@@ -3,13 +3,18 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'cocopon/colorswatch.vim'
 Plug 'cocopon/iceberg.vim'
+Plug 'cocopon/vaffle.vim'
+Plug 'hynek/vim-python-pep8-indent'
 Plug 'itchyny/lightline.vim'
+Plug 'kana/vim-smartinput'
 Plug 'tpope/vim-fugitive'
 Plug 'tyru/open-browser.vim'
 Plug 'Shougo/unite.vim'
 
 call plug#end()
 
+" Backup
+set noswapfile
 " StatusLine
 set laststatus=2
 " 256Color
@@ -34,11 +39,11 @@ set clipboard=unnamed
 
 " Indent
 set autoindent
-set list listchars=tab:▸\ 
-set noexpandtab
+set expandtab
 set nosmartindent
 set shiftround
 set shiftwidth=4
+set softtabstop=4
 set tabstop=4
 
 " LightLine
