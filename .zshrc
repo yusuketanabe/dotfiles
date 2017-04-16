@@ -10,7 +10,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 ## General
-autoload colors && colors
+autoload colors
 autoload -Uz vcs_info
 # cd -[tab]ディレクトリ履歴一覧表示
 setopt auto_pushd
@@ -27,7 +27,7 @@ zstyle ':vcs_info:git:*' check-for-changes true
 zstyle ':vcs_info:git:*' stagedstr "%F{green}☺︎%f"
 zstyle ':vcs_info:git:*' unstagedstr "%F{yellow}☺︎%f"
 setopt PROMPT_SUBST
-PROMPT='%1d${vcs_info_msg_0_}%# '
+PROMPT=$'\n''%F{blue}%1d${vcs_info_msg_0_}%#%f '
 
 ## History
 HISTFILE=~/.zsh_history
