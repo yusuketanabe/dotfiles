@@ -3,6 +3,9 @@
 #      / /_|___ |  _ \| |  ||__     
 # [_] /____|____|_| |_|_|  \___|                              
 
+## nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 ## pyenv
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
