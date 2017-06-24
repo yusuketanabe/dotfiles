@@ -33,9 +33,16 @@ setopt PROMPT_SUBST
 PROMPT=$'\n''%F{blue}%1d${vcs_info_msg_0_}%#%f '
 
 ## History
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+# 保存先
+export HISTFILE=~/.zsh_history
+# メモリに保存される件数
+export HISTSIZE=1000
+# 履歴ファイルに保存される件数
+export SAVEHIST=10000
+# 重複を記録しない
+setopt hist_ignore_dups
+# 開始と終了を記録
+setopt EXTEND_HISTORY
 # 時間を記録
 setopt extended_history
 # 重複を記録しない
