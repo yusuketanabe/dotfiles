@@ -3,6 +3,9 @@
 #      / /_|___ |  _ \| |  ||__     
 # [_] /____|____|_| |_|_|  \___|                              
 
+## exercism
+export PATH=~/bin:$PATH
+
 ## nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
