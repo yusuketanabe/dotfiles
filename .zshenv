@@ -11,4 +11,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 ## homebrew
-alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+alias brew="env PATH=${PATH/${HOME}\/\.pyenv\/shims:/} brew"
