@@ -1,0 +1,1 @@
+/Users/U/dotfiles/.zshenv
