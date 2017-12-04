@@ -1,12 +1,11 @@
 #!/bin/bash
 
-DOT_FILES=(.vimrc .gvimrc .zshrc .zshenv)
+DOT_FILES=(.vimrc .gvimrc .zshrc)
 
 # rm files
 rm -rf ~/.vimrc
 rm -rf ~/.gvimrc
 rm -rf ~/.zshrc
-rm -rf ~/.zshenv
 
 # symbolic link
 for file in ${DOT_FILES[@]}
