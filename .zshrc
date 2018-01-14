@@ -3,6 +3,9 @@
 #      / /_|___ |  _ \| |  ||__     
 # [_] /____|____|_| |_|_|  \___|                              
 
+## Rust 
+export PATH="$HOME/.cargo/bin:$PATH"
+
 ## exercism
 export PATH=~/bin:$PATH
 
