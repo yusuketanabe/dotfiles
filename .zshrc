@@ -3,22 +3,7 @@
 #      / /_|___ |  _ \| |  ||__     
 # [_] /____|____|_| |_|_|  \___|                              
 
-## Rust 
-export PATH="$HOME/.cargo/bin:$PATH"
-
-## exercism
-export PATH=~/bin:$PATH
-
-## nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-## homebrew
-alias brew="env PATH=${PATH/\/Users\/U\/\.pyenv\/shims:/} brew"
-
-## pyenv
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PYENV_ROOT="$HOME/.pyenv"
-eval "$(pyenv init -)"
+## PATH -> zshenv
 
 ## General
 autoload colors
@@ -70,3 +55,8 @@ bindkey "^n" history-beginning-search-forward-end
 ## Completion 自動補完を有効
 autoload -Uz compinit && compinit
 
+## Function of mkdir && cd
+function mkcd(){
+  mkdir $1
+  cd $1
+}
