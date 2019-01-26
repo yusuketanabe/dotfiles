@@ -27,19 +27,19 @@ PROMPT=$'\n''%F{blue}%1d${vcs_info_msg_0_}%#%f '
 
 ## History
 # 保存先
-export HISTFILE=~/.zsh_history
+HISTFILE=~/.zsh_history
 # メモリに保存される件数
-export HISTSIZE=1000
+HISTSIZE=1000
 # 履歴ファイルに保存される件数
-export SAVEHIST=10000
-# 重複を記録しない
-setopt hist_ignore_dups
+SAVEHIST=10000
 # 開始と終了を記録
 setopt EXTENDED_HISTORY
 # 時間を記録
 setopt extended_history
-# 重複を記録しない
+# 直前と同じコマンドは記録しない
 setopt hist_ignore_dups
+# 重複するコマンドは古い方を削除する
+setopt hist_ignore_all_dups
 # 履歴を共有
 setopt share_history
 # カーソル位置が行末に
