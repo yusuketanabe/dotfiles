@@ -1,4 +1,4 @@
-" Plugin
+" Plugin(junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
 
 Plug 'cocopon/colorswatch.vim'
