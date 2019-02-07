@@ -14,3 +14,6 @@ eval (pyenv init - | source)
 ## SDKMAN -> /functions/sdk.fishに記載
 # パスが通っていないので、SDKコマンドを一回でも実行しないとgradleコマンド使えないのでhelpコマンド実行すると。
 sdk help > /dev/null
+
+## theme
+set fish_theme batman
