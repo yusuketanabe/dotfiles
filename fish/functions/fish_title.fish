@@ -1,3 +1,3 @@
 function fish_title
-  echo "$PWD | $_" | sed "s|$HOME|~|g"
+# Customize the title bar of the terminal window.
 end

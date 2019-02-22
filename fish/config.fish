@@ -16,4 +16,4 @@ eval (pyenv init - | source)
 sdk help > /dev/null
 
 ## theme
-set fish_theme batman
+set fish_theme eden
