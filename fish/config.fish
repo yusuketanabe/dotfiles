@@ -17,3 +17,6 @@ sdk help > /dev/null
 
 ## theme
 set fish_theme eden
+
+## ls color (man lsで確認して)
+export LSCOLORS=hxfxcxdxbxegedabagacad
