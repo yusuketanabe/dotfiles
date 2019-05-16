@@ -2,7 +2,7 @@
 set -x PATH $HOME/.cargo/bin $PATH
 
 ## exercism
-set -x PATH ~/bin $PATH
+set -x PATH $HOME/Exercism/bin $PATH
 
 ## nodebrew
 set -x PATH $HOME/.nodebrew/current/bin $PATH
@@ -30,7 +30,6 @@ set -x PATH $HOME/.goenv/bin $PATH
 # eval (goenv init - | source) fishでは下の書き方。$goenv initしたら下のように書いてくれと言われる。
 status --is-interactive; and source (goenv init -|psub)
 ## go
-# $go get -v github.com/go-delve/delve/cmd/dlv Delve Debuggerをゲットする。
-# パッケージを保管するところ。
-set -x GOPATH $HOME/go
+# $GOROOTはGOのインストール先をデフォルトのまま使うなら書かない。
+set -x GOPATH $HOME/Try/go
 set -x PATH $GOPATH/bin $PATH
