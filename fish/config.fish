@@ -26,10 +26,14 @@ export LSCOLORS=hxfxcxdxbxegedabagacad
 set -x PATH ~/usr/local/bin $PATH
 
 ## goenv
-set -x PATH $HOME/.goenv/bin $PATH
+#set -x PATH $HOME/.goenv/bin $PATH
 # eval (goenv init - | source) fishでは下の書き方。$goenv initしたら下のように書いてくれと言われる。
-status --is-interactive; and source (goenv init -|psub)
+#status --is-interactive; and source (goenv init -|psub)
 ## go
 # $GOROOTはGOのインストール先をデフォルトのまま使うなら書かない。
 set -x GOPATH $HOME/Try/go
 set -x PATH $GOPATH/bin $PATH
+
+## Flutter
+# other Shell export --PATH="$PATH:`pwd`/flutter/bin"--
+set -x PATH $HOME/flutter/bin $PATH
