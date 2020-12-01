@@ -23,7 +23,7 @@ source (conda info --root)/etc/fish/conf.d/conda.fish
 sdk help > /dev/null
 
 ## theme
-set fish_theme eden
+#set fish_theme eden
 
 ## ls color (man lsで確認して)
 export LSCOLORS=hxfxcxdxbxegedabagacad
