@@ -30,7 +30,7 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-## condo activate <SHELL_NAME> <-> conda deactive
+## condo activate <SHELL_NAME> <-> conda deactivate
 # source ~/opt/anaconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
 ## ls color (man lsで確認して)
