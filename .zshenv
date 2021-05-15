@@ -16,7 +16,9 @@ export PATH="$HOME/.nodebrew/current/bin:$PATH"
 ## rbenv
 export RBENV_ROOT="$HOME/.rbenv"
 export PATH="$RBENV_ROOT/bin:$PATH"
-eval "$(rbenv init -)"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(rbenv init -)"
+fi
 
 ## pyenv
 export PYENV_ROOT="$HOME/.pyenv"
