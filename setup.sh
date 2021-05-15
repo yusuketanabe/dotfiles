@@ -1,13 +1,13 @@
 #!/bin/bash
 
-DOT_FILES=(.vimrc .gvimrc .zshrc)
+DOT_FILES=(.vimrc .gvimrc .zshrc .zshenv)
 #FISHES=(fish)
 
 ## rm files
 rm -f ~/.vimrc
 rm -f ~/.gvimrc
 rm -f ~/.zshrc
-#rm -f ~/.zshenv
+rm -f ~/.zshenv
 #rm -rf ~/.config/fish
 
 ## symbolic link
