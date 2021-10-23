@@ -1,11 +1,9 @@
-# dotfiles
-* zshもしくはfishをbrewでインストールして使ってね。
-* cloneして"sh setup.sh"を実行して利用してね。
-* パスワード聞かれるよ。
-* ターミナル再起動してね。
+## **dotfiles**
+* Clone it, then run `sh setup.sh`.
+* restart terminal
+---
 
-## 関数作ったよ
+#### **Functions**
 * mkdir && cd
-```shellscript
-mkcd "DIR"
-```
+**:** `% mkcd "DIR"`
+---
