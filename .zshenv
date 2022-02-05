@@ -21,7 +21,8 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 ## gcc/g++
-## もし再度gcc使うならシンボリックリンク作成して使うこと。clang使います。
+## clang使います。
+## もし再度gcc使うならシンボリックリンク作成して使うこと。homebrewでgccインストールしてね。
 ## 作成->ln -s /usr/local/bin/gcc-11 /usr/local/bin/gcc
 ##    or ln -s /usr/local/bin/g++-11 /usr/local/bin/g++
 ## 削除->unlink /usr/local/bin/gcc and unlink /usr/local/bin/g++
