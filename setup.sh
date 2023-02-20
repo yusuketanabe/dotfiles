@@ -1,25 +1,25 @@
 #!/bin/bash
 
-DOT_FILES=(.vimrc .gvimrc .zshrc .zshenv)
-#FISHES=(fish)
+DOT_FILES=(.vimrc .gvimrc)
+FISHES=(fish)
 
 ## rm files
 rm -f ~/.vimrc
 rm -f ~/.gvimrc
-rm -f ~/.zshrc
-rm -f ~/.zshenv
-#rm -rf ~/.config/fish
+#rm -f ~/.zshrc
+#rm -f ~/.zshenv
+rm -rf ~/.config/fish
 
 ## symbolic link
 for file in ${DOT_FILES[@]}
 do
     ln -s $HOME/dotfiles/$file $HOME/$file
 done
-
-#for dir in ${FISHES[@]}
-#do
-#  ln -s $HOME/dotfiles/$dir $HOME/.config/$dir
-#done
+## fish:使わないときはコメントアウトして
+for dir in ${FISHES[@]}
+do
+  ln -s $HOME/dotfiles/$dir $HOME/.config/$dir
+done
 
 ## vim-plug install
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
