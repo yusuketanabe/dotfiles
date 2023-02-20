@@ -25,7 +25,8 @@ done
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-## ログインシェル、デフォルトシェルをzshに変更。fishにしたければzsh >> fishにして。パスワード入力聞かれるよ。
+## ログインシェル、デフォルトシェルをzshに変更。
+## fishにしたければ/bin/zsh >> /usr/local/bin/fishにして。パスワード入力聞かれるよ。
 ## cat /etc/shellsで中身確認してみて。chshでデフォルトシェルも確認してみて。
 #echo /usr/local/bin/fish | sudo tee -a /etc/shells
 
