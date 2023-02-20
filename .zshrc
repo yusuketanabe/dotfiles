@@ -4,6 +4,12 @@
 # [_] /____|____|_| |_|_|  \___|                              
 
 ### PATH -> zshenv
+
+### pyenv:.zshrcに書かなければならない
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 ### General
 autoload colors
 autoload -Uz vcs_info
