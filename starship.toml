@@ -36,7 +36,7 @@ symbol = '[⚝ ](172)'
 
 [git_status]
 deleted = '×'
-
+format = '$sate'
 
 [rust]
 symbol = 'rs '
