@@ -35,8 +35,9 @@ format = '[$duration](236)'
 symbol = '[⚝ ](172)'
 
 [git_status]
+modified = '!'
 deleted = '×'
-format = '([$all_status$ahead_behind](22) )'
+format = '([$all_status$ahead_behind](64) )'
 
 [rust]
 symbol = 'rs '
