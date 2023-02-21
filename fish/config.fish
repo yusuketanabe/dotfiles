@@ -11,7 +11,7 @@ set -x PATH $HOME/Exercism/bin $PATH
 #set -x PATH $HOME/.rbenv/bin $PATH
 #status --is-interactive; and source (rbenv init -| source)
 
-## pyenv
+## pyenv && brew install tcl-tk
 set -Ux PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/bin $PATH
 pyenv init -| source
