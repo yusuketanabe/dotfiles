@@ -34,9 +34,12 @@ format = '[$duration](236)'
 [git_branch]
 symbol = '[⚝ ](172)'
 
+[git_state]
+format = '[\($state( $progress_current of $progress_total)\)]($style) '
+cherry_pick = '[🍒 PICKING](bold red)'
+
 [git_status]
 deleted = '×'
-format = '$sate'
 
 [rust]
 symbol = 'rs '
