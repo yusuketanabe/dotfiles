@@ -44,3 +44,7 @@ export LSCOLORS=hxfxcxdxbxegedabagacad
 ## Flutter
 # other Shell export --PATH="$PATH:`pwd`/flutter/bin"--
 #set -x PATH $HOME/WorkSpace/flutter/bin $PATH
+
+## Starship Theme
+## A Nerd Font installed and enabled in your terminal 
+starship init fish | source

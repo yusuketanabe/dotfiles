@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOT_FILES=(.vimrc .gvimrc)
-FISHES=(fish)
+FISHES=(fish starship.toml)
 
 ## rm files
 rm -f ~/.vimrc
