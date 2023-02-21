@@ -36,7 +36,7 @@ symbol = '[⚝ ](172)'
 
 [git_status]
 deleted = '×'
-format = '[\($state( $progress_current of $progress_total)\)]($style) '
+
 
 [rust]
 symbol = 'rs '
