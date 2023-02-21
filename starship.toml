@@ -35,8 +35,10 @@ format = '[$duration](236)'
 symbol = '[⚝ ](172)'
 
 [git_status]
+behind = '↓'
 modified = '+'
 staged = '↩︎'
+ahead = '↑'
 deleted = '×'
 format = '([$all_status$ahead_behind](64) )'
 
