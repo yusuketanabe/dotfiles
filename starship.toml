@@ -37,6 +37,7 @@ symbol = '[⚝ ](172)'
 [git_state]
 format = '[\($state( $progress_current of $progress_total)\)]($style) '
 cherry_pick = '[🍒 PICKING](bold red)'
+disabled = false
 
 [git_status]
 deleted = '×'
