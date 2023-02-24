@@ -11,10 +11,12 @@ set -x PATH $HOME/Exercism/bin $PATH
 #set -x PATH $HOME/.rbenv/bin $PATH
 #status --is-interactive; and source (rbenv init -| source)
 
-## pyenv && brew install tcl-tk
+## pyenv with "poetry" && brew install tcl-tk
 set -Ux PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/bin $PATH
 pyenv init -| source
+## poetry
+export PATH="$HOME/.local/bin:$PATH"
 
 ## SDKMAN -> /functions/sdk.fishに記載
 # パスが通っていないので、SDKコマンドを一回でも実行しないとgradleコマンド使えないのでhelpコマンド実行すると。
